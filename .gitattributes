@@ -1,0 +1,4 @@
+# .gitattributes
+
+broadcast/* linguist-vendored
+*.ps1 linguist-generated
