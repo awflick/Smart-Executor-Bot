@@ -9,7 +9,7 @@ A Python + Solidity project that automatically executes Uniswap V3 swaps based o
 
 ## Overview
 
-This bot monitors a condition (e.g. ETH price > $2500) and triggers a swap from one ERC-20 token to another using a deployed `SwapExecutor` smart contract on Uniswap V3.
+This bot monitors a condition (e.g. ETH price > $2000) and triggers a swap from one ERC-20 token to another using a deployed `SwapExecutor` smart contract on Uniswap V3.
 
 ---
 
