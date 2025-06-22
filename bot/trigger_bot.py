@@ -51,8 +51,8 @@ def main():
     eth_price = get_eth_price_coingecko()
     print(f"Current ETH Price: ${eth_price}")
 
-    if eth_price > 2500:
-        msg = "✅ Condition met! (ETH > $2500) — Ready to trigger swap"
+    if eth_price > 2000:
+        msg = "✅ Condition met! (ETH > $2000) — Ready to trigger swap"
         print(msg)
         log_event(msg, "logs/bot.log")
 

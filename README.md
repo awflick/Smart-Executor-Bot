@@ -88,9 +88,20 @@ make run-anvil
 
 ```
 🔍 Running in ANVIL (Local) mode
-✅ Condition met! (ETH > $2500) — Ready to trigger swap
-🔁 Swap triggered! Tx hash: 0x123...abc
-🔁 ANVIL swap executed! Tx hash: 0x123...abc
+RPC_URL: http://127.0.0.1:8545
+Using Private Key: ANVIL
+Bot initialized
+🔑 Account loaded: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Account balance: 9999999837077049077392 wei
+Current ETH Price: $2180.36
+✅ Condition met! (ETH > $2000) — Ready to trigger swap
+🧪 SWAP DEBUG
+Token In: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+Token Out: 0x6B175474E89094C44Da98b954EedeAC495271d0F
+Router: 0xC7f2Cf4845C6db0e1a1e91ED41Bcd0FcC1b0E141
+⛽ Swap Amount: 1 ETH
+🔁 Swap triggered! Tx hash: 0xf9af907a63682b0e9ae5134a4e38b266f4401ae6c62b8d5ea27da759f843df7b
+🔁 ANVIL swap executed! Tx hash: 0xf9af907a63682b0e9ae5134a4e38b266f4401ae6c62b8d5ea27da759f843df7b
 ```
 
 ---
