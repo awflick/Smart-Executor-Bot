@@ -1,5 +1,8 @@
 # Smart Executor Bot
 
+![Built with Foundry](https://img.shields.io/badge/Built%20with-Foundry-blueviolet)
+![Web3.py](https://img.shields.io/badge/Python-Web3.py-informational)
+
 A Python + Solidity project that automatically executes Uniswap V3 swaps based on real-time conditions. Built for use with mainnet or forked testing environments like Anvil.
 
 ---
@@ -80,6 +83,14 @@ Copy the deployed address into your \`.env\` under \`SWAP_EXECUTOR\`.
 
 ```
 make run-anvil
+```
+#### Example Output:
+
+```
+🔍 Running in ANVIL (Local) mode
+✅ Condition met! (ETH > $2500) — Ready to trigger swap
+🔁 Swap triggered! Tx hash: 0x123...abc
+🔁 ANVIL swap executed! Tx hash: 0x123...abc
 ```
 
 ---

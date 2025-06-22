@@ -53,7 +53,7 @@ contract SwapExecutor {
                 recipient: recipient,
                 deadline: deadline,
                 amountIn: amountIn,
-                amountOutMinimum: amountOutMin,
+                amountOutMinimum: amountOutMin,// WARNING: should be calculated dynamically for slippage protection
                 sqrtPriceLimitX96: 0
             });
 

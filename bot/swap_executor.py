@@ -10,7 +10,9 @@ def execute_real_swap(w3, contract, private_key, token_in, token_out, recipient,
 
     # Convert to wei
     amount_in = Web3.to_wei(amount_in_eth, "ether")
-    min_out = Web3.to_wei(min_out_eth, "ether")
+    min_out = Web3.to_wei(min_out_eth, "ether") # Minimum amount of tokenOut
+    # NOTE: In production, amountOutMin should be calculated dynamically
+    # using slippage tolerance based on real-time price data.
     deadline = int(time.time()) + 3600
 
     print(f"⛽ Swap Amount: {Web3.from_wei(amount_in, 'ether')} ETH")
