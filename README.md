@@ -3,7 +3,7 @@
 ![Built with Foundry](https://img.shields.io/badge/Built%20with-Foundry-blueviolet)
 ![Web3.py](https://img.shields.io/badge/Python-Web3.py-informational)
 
-A Python + Solidity project that automatically executes Uniswap V3 swaps based on real-time conditions. Built for use with mainnet or forked testing environments like Anvil.
+A Solidity smart contract and Python bot system that automatically executes Uniswap V3 token swaps based on real-time market conditions. Tested in a mainnet-forked environment using Foundry and Web3.py.
 
 ---
 
