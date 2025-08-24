@@ -1,5 +1,14 @@
 # swap_executor.py
 
+# This module contains the logic to execute a swap using the SwapExecutor contract.
+# It requires the following environment variables to be set:
+# - TOKEN_IN: Address of the input token (e.g., LINK)
+# - TOKEN_OUT: Address of the output token (e.g., USDC)
+# - RECIPIENT: Address of the recipient of the output token
+# - SWAP_EXECUTOR: Address of the SwapExecutor contract
+# - ANVIL_PRIVATE_KEY: Private key for the sender account
+# Ensure that the sender account has sufficient balance of TOKEN_IN to perform the swap.    
+
 from web3 import Web3
 import time
 from eth_account import Account

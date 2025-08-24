@@ -1,5 +1,8 @@
 # price_check.py
 
+# This module contains the logic to fetch the current ETH price from CoinGecko.
+
+
 import requests
 
 def get_eth_price_coingecko() -> float:

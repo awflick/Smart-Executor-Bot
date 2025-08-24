@@ -1,5 +1,16 @@
 # trigger_bot.py
 
+# This script is the main entry point for the Smart Executor Bot.
+# It initializes the bot, checks conditions, and executes swaps if conditions are met.  
+# It requires the following environment variables to be set:
+# - LIVE_MODE: Set to "true" to run in live mode, "false" for testing
+# - ANVIL_RPC_URL: RPC URL for the Anvil node
+# - ANVIL_PRIVATE_KEY: Private key for the sender account
+# - RECIPIENT: Address of the recipient of the output token
+# - SWAP_EXECUTOR: Address of the SwapExecutor contract
+# - TOKEN_IN: Address of the input token (e.g., LINK)
+# - TOKEN_OUT: Address of the output token (e.g., USDC)
+
 from web3 import Web3
 import os
 from utils.load_abi import load_abi

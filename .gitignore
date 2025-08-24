@@ -32,3 +32,6 @@ lcov-report/
 
 # Logs (ignore all log files, but keep the folder if needed)
 logs/
+
+# Python virtual environment
+venv/

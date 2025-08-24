@@ -1,5 +1,16 @@
 // SPDX-License-Identifier: MIT 
 
+//Swap.s.sol
+// This script is used to execute a swap using the SwapExecutor contract.
+// It requires the following environment variables to be set:
+// - TOKEN_IN: Address of the input token (e.g., LINK)
+// - TOKEN_OUT: Address of the output token (e.g., USDC)
+// - RECIPIENT: Address of the recipient of the output token
+// - SWAP_EXECUTOR: Address of the SwapExecutor contract
+// - ANVIL_PRIVATE_KEY: Private key for the sender account
+// Ensure that the sender account has sufficient balance of TOKEN_IN to perform the swap.
+// Ensure that the SwapExecutor contract is deployed and configured correctly.
+
 pragma solidity ^0.8.25;
 
 import {Script} from "forge-std/Script.sol";

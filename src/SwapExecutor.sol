@@ -1,4 +1,10 @@
 // SPDX-License-Identifier: MIT
+
+// SwapExecutor.sol
+// This contract is used to execute token swaps using Uniswap V3.   
+// It requires the Uniswap V3 router and WETH address to be set during deployment.  
+// The contract provides a function to execute swaps with specified parameters.
+
 pragma solidity ^0.8.25;
 
 import {ISwapRouter} from "@uniswap/v3-periphery/interfaces/ISwapRouter.sol";
